@@ -8012,13 +8012,13 @@ ul.no-bullets li {
 
 .image-container2 {
   position: relative;
-  width: 100%; /* You can set this to any value, or use max-width for responsiveness */
-  max-width: 500px; /* example value */
+  width: 120%; /* You can set this to any value, or use max-width for responsiveness */
+  max-width: 600px; /* example value */
 }
 
 /* Styling the image */
 .image-container2 img {
-  width: 100%;
+  width: 120%;
   display: block;
 }
 
@@ -8027,13 +8027,13 @@ ul.no-bullets li {
 .overlay-text2 {
   position: absolute;
   top: 20%;
-  left: 50%;
+  left: 47%;
   transform: translate(-50%, -50%);
   color: white; /* Or any color you like */
   font-size: 15px; /* Adjust as needed */
  
   text-align: center;
-  width: 100%; /* Adjust as needed */
+  width: 90%; /* Adjust as needed */
   background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background for readability */
   padding: 10px;
   /* border-radius: 5px; */ /* Optional rounded corners */
@@ -8043,3 +8043,31 @@ ul.no-bullets li {
 .overlay-text2 p {
   color: white;
 }
+
+
+.form-container {
+  background-color: rgba(255, 255, 255, 0.8); /* white with 80% opacity */
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 500px; /* or whatever width you prefer */
+  margin: 0 auto; /* centers the form horizontally */
+}
+
+label, input, textarea {
+  color: #333; /* dark text color */
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.7); /* subtle white shadow for better readability */
+}
+
+.form-element {
+  margin-bottom: 20px;
+}
+label {
+  font-weight: bold;
+}
+
+input[type="text"], input[type="email"], textarea {
+  padding: 10px;
+  border-radius: 5px;
+}
+
+ 
