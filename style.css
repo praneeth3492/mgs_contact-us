@@ -8070,4 +8070,12 @@ input[type="text"], input[type="email"], textarea {
   border-radius: 5px;
 }
 
- 
+.reg-box3 {
+  position: absolute;
+  top: 50%;  /* This will position the form in the middle of the banner vertically */
+  left: 50%; /* This will position the form in the middle of the banner horizontally */
+  transform: translate(-0%, -50%); /* This will ensure the form is centered both vertically and horizontally */
+  background-color: rgba(255, 255, 255, 0.8); /* Optional: This will give the form a semi-transparent white background to make it stand out from the banner */
+  padding: 20px; /* Optional: This will give some space around the form */
+  border-radius: 10px; /* Optional: This will round the corners of the form container */
+}
